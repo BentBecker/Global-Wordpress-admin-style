@@ -8,3 +8,6 @@
   display: block;
   color: #fff;
 }
+div#wpadminbar {
+    background: green;
+}
