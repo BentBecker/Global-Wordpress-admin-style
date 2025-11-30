@@ -1,3 +1,10 @@
-#wp-admin-bar-wp-logo:after{
-  content: "testasd";
+#wpadminbar #wp-admin-bar-wp-logo .ab-item {
+  text-indent: -9999px;
+}
+
+#wpadminbar #wp-admin-bar-wp-logo .ab-item:after {
+  content: "Your Custom Text";
+  text-indent: 0;
+  display: block;
+  color: #fff;
 }
